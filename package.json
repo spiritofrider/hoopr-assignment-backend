@@ -1,0 +1,36 @@
+{
+  "name": "hoopr-assignment-backend",
+  "version": "1.0.0",
+  "description": "API for user managemnt Hoopr Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spiritofrider/hoopr-assignment-backend.git"
+  },
+  "author": "Udit Vikhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spiritofrider/hoopr-assignment-backend/issues"
+  },
+  "homepage": "https://github.com/spiritofrider/hoopr-assignment-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-jwt": "^6.1.1",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-google-oauth": "^2.0.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.17.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
